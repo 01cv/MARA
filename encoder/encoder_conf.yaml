@@ -1,0 +1,61 @@
+# FaceNet:
+#     img_size: 160
+#     align: mtcnn
+
+VGGNet19:
+    img_size: 112
+    align: mtcnn
+    weight: /media/Storage1/Black-box-Face-Reconstruction-main1/weights/VGG19_CosFace.pt
+
+# ResNet50:
+#     depth: 50
+#     drop_ratio: 0.4
+#     net_mode: ir
+#     feat_dim: 512
+#     out_h: 7
+#     out_w: 7
+#     img_size: 112
+#     align: FXZoo
+#     weight: /media/Storage1/Black-box-Face-Reconstruction-main1/weights/model_ir_se50.pth
+
+SwinTransformer:
+    patch_size: 4
+    in_chans: 3
+    embed_dim: 96
+    depths:
+    - 2
+    - 2
+    - 18
+    - 2
+    num_heads:
+    - 3
+    - 6
+    - 12
+    - 24
+    window_size: 7
+    mlp_ratio: 4.0
+    drop_rate: 0.0
+    drop_path_rate: 0.3
+    img_size: 224
+    align: FXZoo
+    weight: /media/Storage1/Black-box-Face-Reconstruction-main1/weights/Swin-S-MS1M.pt
+
+# AdaFace:
+#     weight: /media/Storage1/Black-box-Face-Reconstruction-main1/AdaFace/pretrained/adaface_ir50_ms1mv2.ckpt
+#     align: mtcnn
+#     img_size : 112
+
+#ArcFace:
+#    weight: /media/ahu/Storage1/Black-box-Face-Reconstruction-main1/arcface/resnet18_110.pth
+#    align: mtcnn
+#    img_size: 112
+
+# MagFace:
+#     weight: /media/Storage1/Black-box-Face-Reconstruction-main1/MagFace/magface_iresnet50_MS1MV2_ddp_fp32.pth
+#     align: mtcnn
+#     img_size: 112
+
+# ArcFace:
+#     weight: /media/Storage1/Black-box-Face-Reconstruction-main1/InsightFace_Pytorch/model_ir_se50.pth
+#     align: mtcnn
+#     img_size: 112
