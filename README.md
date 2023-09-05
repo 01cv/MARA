@@ -33,8 +33,49 @@ After the setup is done, simply run ```python reconstruct.py```.
 
 [ICIP Source Code](https://github.com/1ho0jin1/Black-box-Face-Reconstruction)
 
-## Citing 
-[1] TOWARDS QUERY EFFICIENT AND GENERALIZABLE BLACK-BOX FACE RECONSTRUCTION ATTACK  
+## Citation
+If you find this project useful in your research, please consider citing:
+```
+@article{dong2023reconstruct,
+  title={Reconstruct face from features based on genetic algorithm using GAN generator as a distribution constraint},
+  author={Dong, Xingbo and Miao, Zhihui and Ma, Lan and Shen, Jiajun and Jin, Zhe and Guo, Zhenhua and Teoh, Andrew Beng Jin},
+  journal={Computers \& Security},
+  volume={125},
+  pages={103026},
+  year={2023},
+  publisher={Elsevier}
+}
+@inproceedings{dong2021towards,
+  title={Towards generating high definition face images from deep templates},
+  author={Dong, Xingbo and Jin, Zhe and Guo, Zhenhua and Teoh, Andrew Beng Jin},
+  booktitle={2021 International Conference of the Biometrics Special Interest Group (BIOSIG)},
+  pages={1--11},
+  year={2021},
+  organization={IEEE}
+}
 
-[2] Minimum Assumption Reconstruction Attacks: Rise of Security and Privacy Threats against Face Recognition
+@inproceedings{dong2023towards,
+  title={TOWARDS QUERY EFFICIENT AND GENERALIZABLE BLACK-BOX FACE RECONSTRUCTION ATTACK  },
+  author={Hojin Park, Jaewoo Park, Yonsei University, Korea, Republic of; Xingbo Dong, Anhui University, China; Andrew Beng Jin Teoh, Yonsei University, Korea, Republic of},
+  booktitle={2021 International Conference of the Biometrics Special Interest Group (BIOSIG)},
+  pages={1--11},
+  year={2021},
+  organization={IEEE}
+}
+
+@inproceedings{dong2023towards,
+  title={Minimum Assumption Reconstruction Attacks: Rise of Security and Privacy Threats against Face Recognition  },
+  author={Dezhi Li, Hojin Park, Xingbo Dong,Yenlung Lai, Hui Zhang,Andrew Beng Jin Teoh, and Zhe Jin},
+  booktitle={The 6th Chinese Conference on Pattern Recognition and Computer Vision, PRCV 2023},
+  pages={1--11},
+  year={2023},
+  organization={}
+}
+
+
+
+```
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
