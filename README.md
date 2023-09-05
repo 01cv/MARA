@@ -69,7 +69,7 @@ If you find this project useful in your research, please consider citing:
   booktitle={The 6th Chinese Conference on Pattern Recognition and Computer Vision, PRCV 2023},
   pages={1--11},
   year={2023},
-  organization={}
+  organization={Springer}
 }
 
 
